@@ -2,7 +2,7 @@ package Mini_project;
 
 public class Piece {
 	private Color color;
-	private Board board;
+	//private Board board;
 	private Location location;
 
 	public Piece() {
@@ -11,6 +11,8 @@ public class Piece {
 	
 	public Location getLocation() {
 		
+		Location L = new Location();
+		return L;
 	}
 
 }
